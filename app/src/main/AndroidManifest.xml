@@ -24,6 +24,18 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="sateesh.com.completeui.MainActivity" />
         </activity>
+        <activity
+            android:name=".DoneBar"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".TabbedWithFloating"
+            android:label="@string/title_activity_tabbed_with_floating"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="sateesh.com.completeui.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

@@ -25,6 +25,18 @@
                 android:id="@+id/tabbed_view"
                 android:text="Tabbed View" />
 
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/done_bar"
+                android:text="done bar"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/Tab_with_float"
+                android:text="Tab with Float"/>
+
         </LinearLayout>
     </ScrollView>
 
